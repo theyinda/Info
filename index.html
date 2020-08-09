@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Form</title>
+
+    </head>
+    <body>
+        <form class="form" action="index.php" method="post">
+            <input type="text"  class="input" placeholder="Name" required><br>
+            <input type="text"  class="input" placeholder="Email" required><br>
+            <input type="date"  class="input" required><br>
+            <br>
+            <p class="gender">Please select your gender:</p>
+            <input type="radio"  id="male" name="gender" value="male">
+            <label for="male" class="gender">Male</label><br>
+            <input type="radio"  id="female" name="gender" value="female">
+            <label for="female" class="gender">Female</label><br>
+            <input type="radio"  id="other" name="gender" value="other">
+            <label for="other" class="gender">Other</label>
+            
+            <br>
+    
+            <select class="country">
+                <option value="0">Select Country:</option>
+                <option value="1">Nigeria</option>
+                <option value="2">Ghana</option>
+            </select> <br>   
+            <input type="button" class="submit" value="Submit"> 
+
+        </form>
+
+    </body>
+</html>
